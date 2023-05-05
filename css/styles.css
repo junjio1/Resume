@@ -40,17 +40,6 @@ p{
   font-size: 20px;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 250px;
-  top: 50px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  top: 200px;
-  left: 250px;
-}
 
 .top-container {
   background-color: #ecfcff;
@@ -74,20 +63,20 @@ p{
 }
 
 .footer-link {
-  padding: 40px;
+  padding: 1rem;
   font-size: 1rem;
   color: #0f4c75;
   font-weight: bold;
   text-decoration: none;
 }
 
-.skills-img {
+.img-lefy {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
 
-.chillies-img {
+.img-right {
   width: 25%;
   float: right;
   margin-left: 30px;
