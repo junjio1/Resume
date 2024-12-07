@@ -26,6 +26,10 @@ h3 {
   color: #0f4c75
 }
 
+.not-bold {
+  font-weight: normal;
+}
+
 hr {
   border-style: none;
   border-top-style: dotted;
@@ -35,9 +39,18 @@ hr {
   color: gray;
 }
 
-p{
-  line-height: 2;
-  font-size: 20px;
+p {
+  line-height: 1.3;
+  font-size: 1.3rem;
+}
+
+li {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+li::marker {
+  color: #0f4c75;
 }
 
 
@@ -52,6 +65,10 @@ p{
 
 .middle-container {
   padding-bottom: 40px;
+}
+
+.skill-row:last-child {
+  margin-bottom: 1rem;
 }
 
 .bottom-container {
@@ -80,6 +97,7 @@ p{
   width: 25%;
   float: right;
   margin-left: 30px;
+  border-radius: 3rem;
 }
 
 .skill-row {
